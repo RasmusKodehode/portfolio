@@ -1,5 +1,9 @@
+import {useState} from "react"
+
 export function Component1() {
+    const [state, setState] = useState(false)
+
     return (
-        <p>This is a component, you can find it at ./components/component1.jsx</p>
+        <h1 onMouseEnter={() => setState(true)} onMouseLeave={() => setState(false)}>The state is currently <span>{state ? "true" : "false"}</span>. Hover over it to change!</h1>
     )
 }
