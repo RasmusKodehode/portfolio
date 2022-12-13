@@ -27,6 +27,10 @@ button {
   font-weight: bold;
 }
 
+#button-quote {
+  width: 200px;
+}
+
 span {
   color: black;
   background-color: yellow;
