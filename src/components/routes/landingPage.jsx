@@ -9,7 +9,8 @@ export function LandingPage() {
           </p>
         </div>
         <div className="ProfileImg">
-          <img src="../images/Profilbilde.jpg" alt="Profilbilde" />
+          <img src="../images/Profilbilde.jpg" alt="Profilbilde*" />
+          <p>*Profile picture does not show, reason unknown at moment</p>
         </div>
       </div>
     );

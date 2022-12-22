@@ -23,6 +23,9 @@ function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/AboutPage" element={<AboutPage />} />
+              <Route path="/AboutPage/Project1" element={<Component1 />} />
+              <Route path="/AboutPage/Project2" element={<Component2 />} />
+              <Route path="/AboutPage/Project3" element={<Component3 />} />              
             <Route path="/ContactPage" element={<ContactPage />} />
           </Routes>
         </main>
