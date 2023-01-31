@@ -64,15 +64,139 @@ span {
   border-bottom-left-radius: 80%;
 }
 
+.image {
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 30px;
+}
+
 .project-showcase {
   display: flex;
   align-items: center;
 }
 
 .project {
-  width: 20%;
-  height: 200px;
+  width: 25%;
+  height: 270px;
   background-color: #FAFE42;
   margin: 10px auto;
   box-shadow: 0 5px 3px darkgray;
+}
+
+@media only screen and (max-width: 420px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .App {
+  text-align: center;
+  background-color: white;
+  color: black;
+  }
+
+  .App-header {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: baseline;
+  padding: 10px;
+  background-color: #FEC942;
+  font-size: 20px;
+  }
+
+  nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+main {
+  min-height: 100vh;
+}
+
+button {
+  margin: 4px;
+  padding: 2px 5px;
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  border: solid white 2px;
+  font-weight: bold;
+}
+
+#button-quote {
+  width: 200px;
+}
+
+span {
+  color: black;
+  background-color: yellow;
+}
+
+.profile {
+  display: flex;
+  min-height: 100vh;
+}
+
+.ProfileInfo {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 90vh;
+  width: 60%;
+}
+
+.ProfileImg {
+  width: 40%;
+  height: 90vh;
+  background-color: #FF3939;
+  border-bottom-left-radius: 80%;
+}
+
+.image {
+  width: 100px;
+  margin-top: 35px;
+  border-radius: 50%;
+}
+
+.logo {
+  display: block;
+  margin: 10px auto;
+  width: 40px;
+}
+
+.project-showcase {
+  display: block;
+  align-items: center;
+}
+
+.project {
+  width: 70%;
+  height: 230px;
+  background-color: #FAFE42;
+  margin: 20px auto;
+  box-shadow: 0 5px 3px darkgray;
+}
+
+.title-about {
+  font-size: 15px;
+  margin: 20px;
+}
+
+.text-about {
+  font-size: 15px;
+  margin: 20px;
+}
+
+.project-title {
+  margin: 20px;
+}
+
 }

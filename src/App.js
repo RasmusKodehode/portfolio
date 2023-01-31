@@ -6,6 +6,7 @@ import { Component3 } from "./components/component3";
 import { LandingPage } from "./components/routes/landingPage";
 import { ContactPage } from "./components/routes/contactPage";
 import { AboutPage } from "./components/routes/aboutPage";
+import {ErrorPage} from "./components/routes/404";
 
 
 function App() {
@@ -14,9 +15,9 @@ function App() {
       <div className="App">
         <header className="App-header">
           <nav>
-            <Link to="/">Home</Link>
-            <Link to="/aboutPage">About</Link>
-            <Link to="/ContactPage">Contact</Link>
+            <Link to="/">Hjem</Link>
+            <Link to="/aboutPage">Om</Link>
+            <Link to="/ContactPage">Kontakt</Link>
           </nav>
         </header>
         <main>
@@ -27,6 +28,7 @@ function App() {
               <Route path="/AboutPage/Project2" element={<Component2 />} />
               <Route path="/AboutPage/Project3" element={<Component3 />} />              
             <Route path="/ContactPage" element={<ContactPage />} />
+            <Route path="*" element={<ErrorPage />} />
           </Routes>
         </main>
       </div>

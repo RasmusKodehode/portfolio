@@ -1,16 +1,16 @@
+import Profilbilde from "../images/Profilbilde.jpg";
+
 export function LandingPage() {
     return (
       <div className="profile">
         <div className="ProfileInfo">
           <h2>Rasmus J. Brekke</h2>
-          <h4>Frontend Developer</h4>
-          <p>Hello, welcome to my website! I'm a front end developer from Bergen, Norway. Have a look around to learn more about me and
-            my projects!
-          </p>
+          <h4>Frontend Utvikler</h4>
+          <p>Hei, velkommen til hjemmesiden min! Jeg er en frontend utvikler fra Bergen.
+            Ta en titt rundt for å lære mer om meg og det jeg har gjort!</p>
         </div>
         <div className="ProfileImg">
-          <img src="../images/Profilbilde.jpg" alt="Profilbilde*" />
-          <p>*Profile picture does not show, reason unknown at moment</p>
+          <img src={Profilbilde} alt="Profilbilde" className="image" />
         </div>
       </div>
     );
