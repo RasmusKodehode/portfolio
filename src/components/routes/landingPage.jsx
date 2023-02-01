@@ -1,4 +1,6 @@
 import Profilbilde from "../images/Profilbilde.jpg";
+import bergen from "../images/bergen.jpg";
+import rain from "../images/rain.jpg";
 
 export function LandingPage() {
     return (
@@ -8,9 +10,19 @@ export function LandingPage() {
           <h4>Frontend Utvikler</h4>
           <p>Hei, velkommen til hjemmesiden min! Jeg er en frontend utvikler fra Bergen.
             Ta en titt rundt for å lære mer om meg og det jeg har gjort!</p>
+          <div className="img-collection">
+            <figure>
+              <img id="bergen-img" src={bergen} />
+              <figcaption><em>Noen ganger ser det sånn ut...</em></figcaption>
+            </figure>
+            <figure>
+              <img id="rain-img" src={rain} />
+              <figcaption><em>...men som oftest ser det sånn ut.</em></figcaption>
+            </figure>
+          </div>
         </div>
         <div className="ProfileImg">
-          <img src={Profilbilde} alt="Profilbilde" className="image" />
+          <img src={Profilbilde} alt="Profilbilde" id="profile-image" />
         </div>
       </div>
     );

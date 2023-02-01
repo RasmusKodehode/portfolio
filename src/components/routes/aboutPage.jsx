@@ -52,8 +52,8 @@ export function AboutPage() {
           <Project title="API project" date="2022" dooblydoo={project4Dooblydoo} link="/AboutPage/Project3" />
         </div>
         <div className="project-showcase">
-          <Project title="Title5" date="2012" dooblydoo={project5Dooblydoo} link="/AboutPage/Project1" />
-          <Project title="Title6" date="2016" dooblydoo={project6Dooblydoo} link="/AboutPage/Project2" />
+          <Project title="Title5" date="2023" dooblydoo={project5Dooblydoo} link="/AboutPage/Project1" />
+          <Project title="Title6" date="2023" dooblydoo={project6Dooblydoo} link="/AboutPage/Project2" />
         </div>
         <br />
         <br />

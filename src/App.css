@@ -53,8 +53,7 @@ span {
   margin-left: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 80vh;
+  height: 40vh;
   width: 60%;
 }
 
@@ -64,14 +63,32 @@ span {
   border-bottom-left-radius: 80%;
 }
 
-.image {
+#profile-image {
   width: 250px;
-  margin-top: 20px;
+  margin-top: 50px;
   border-radius: 50%;
+}
+
+.img-collection {
+  display: flex;
+  margin-top: 20px;
+}
+
+#bergen-img {
+  height: 210px;
+}
+
+#rain-img {
+  height: 210px;
 }
 
 .logo {
   width: 30px;
+}
+
+.text-about {
+  font-size: 15px;
+  margin: 25px;
 }
 
 .project-showcase {
@@ -84,10 +101,11 @@ span {
   height: 270px;
   background-color: #FAFE42;
   margin: 10px auto;
+  padding: 10px 10px;
   box-shadow: 0 5px 3px darkgray;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 1000px) {
   * {
     padding: 0;
     margin: 0;
