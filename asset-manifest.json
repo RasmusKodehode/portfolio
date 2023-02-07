@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/first-react-test/static/css/main.6a7374f3.css",
-    "main.js": "/first-react-test/static/js/main.f0bfca48.js",
+    "main.css": "/first-react-test/static/css/main.1d4ce427.css",
+    "main.js": "/first-react-test/static/js/main.893798b3.js",
     "static/js/787.ed490093.chunk.js": "/first-react-test/static/js/787.ed490093.chunk.js",
     "static/media/bergen.jpg": "/first-react-test/static/media/bergen.573e9d9e7e22efae86b5.jpg",
     "static/media/rain.jpg": "/first-react-test/static/media/rain.2b5938f24cc8ace34192.jpg",
@@ -9,12 +9,12 @@
     "static/media/GitHub.svg": "/first-react-test/static/media/GitHub.f9d240516447d409b9cabad64848bfc3.svg",
     "static/media/linkedIn.svg": "/first-react-test/static/media/linkedIn.dfc483002d1aa6848941bc51d5459325.svg",
     "index.html": "/first-react-test/index.html",
-    "main.6a7374f3.css.map": "/first-react-test/static/css/main.6a7374f3.css.map",
-    "main.f0bfca48.js.map": "/first-react-test/static/js/main.f0bfca48.js.map",
+    "main.1d4ce427.css.map": "/first-react-test/static/css/main.1d4ce427.css.map",
+    "main.893798b3.js.map": "/first-react-test/static/js/main.893798b3.js.map",
     "787.ed490093.chunk.js.map": "/first-react-test/static/js/787.ed490093.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a7374f3.css",
-    "static/js/main.f0bfca48.js"
+    "static/css/main.1d4ce427.css",
+    "static/js/main.893798b3.js"
   ]
 }
