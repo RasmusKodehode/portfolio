@@ -41,19 +41,19 @@ button {
 
 span {
   color: black;
-  background-color: yellow;
+  background-color: #FF3939;
 }
 
 .profile {
   display: flex;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .ProfileInfo {
   margin-left: 20px;
   display: flex;
   flex-direction: column;
-  height: 40vh;
+  justify-content: space-around;
   width: 60%;
 }
 
@@ -99,9 +99,8 @@ span {
 .project {
   width: 25%;
   height: 270px;
-  background-color: #FAFE42;
+  background-color: #FEC942;
   margin: 10px auto;
-  padding: 10px 10px;
   box-shadow: 0 5px 3px darkgray;
 }
 
@@ -111,6 +110,7 @@ span {
     margin: 0;
     box-sizing: border-box;
   }
+
   .App {
   text-align: center;
   background-color: white;
@@ -132,89 +132,110 @@ span {
   display: flex;
   justify-content: space-around;
   width: 100%;
-}
+  }
 
-main {
-  min-height: 100vh;
-}
+  main {
+    min-height: 100vh;
+  }
 
-button {
-  margin: 4px;
-  padding: 2px 5px;
-  width: 100px;
-  height: 30px;
-  background-color: red;
-  border: solid white 2px;
-  font-weight: bold;
-}
+  button {
+    margin: 4px;
+    padding: 2px 5px;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border: solid white 2px;
+    font-weight: bold;
+  }
 
-#button-quote {
-  width: 200px;
-}
+  #button-quote {
+    width: 200px;
+  }
 
-span {
-  color: black;
-  background-color: yellow;
-}
+  span {
+    color: black;
+    background-color: yellow;
+  }
 
-.profile {
-  display: flex;
-  min-height: 100vh;
-}
+  .profile {
+    display: flex;
+    min-height: 100vh;
+  }
 
-.ProfileInfo {
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 90vh;
-  width: 60%;
-}
+  .ProfileInfo {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90vh;
+    width: 60%;
+  }
 
-.ProfileImg {
-  width: 40%;
-  height: 90vh;
-  background-color: #FF3939;
-  border-bottom-left-radius: 80%;
-}
+  .ProfileImg {
+    width: 40%;
+    height: 90vh;
+    background-color: #FF3939;
+    border-bottom-left-radius: 80%;
+  }
 
-.image {
-  width: 100px;
-  margin-top: 35px;
-  border-radius: 50%;
-}
+  #profile-image {
+    width: 120px;
+    margin-top: 50px;
+    border-radius: 50%;
+  }
 
-.logo {
-  display: block;
-  margin: 10px auto;
-  width: 40px;
-}
+  .image {
+    width: 100px;
+    margin-top: 35px;
+    border-radius: 50%;
+  }
 
-.project-showcase {
-  display: block;
-  align-items: center;
-}
+  .logo {
+    display: block;
+    margin: 10px auto;
+    width: 40px;
+  }
 
-.project {
-  width: 70%;
-  height: 230px;
-  background-color: #FAFE42;
-  margin: 20px auto;
-  box-shadow: 0 5px 3px darkgray;
-}
+  .project-showcase {
+    display: block;
+    align-items: center;
+  }
 
-.title-about {
-  font-size: 15px;
-  margin: 20px;
-}
+  .project {
+    width: 70%;
+    height: 230px;
+    background-color: #FEC942;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 5px 3px darkgray;
+  }
 
-.text-about {
-  font-size: 15px;
-  margin: 20px;
-}
+  .title-about {
+    font-size: 15px;
+    margin: 20px;
+  }
 
-.project-title {
-  margin: 20px;
-}
+  .text-about {
+    font-size: 15px;
+    margin: 20px;
+  }
 
+  .project-title {
+    margin: 20px;
+  }
+
+  .img-collection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  #bergen-img {
+    height: 140px;
+  }
+
+  #rain-img {
+    height: 140px;
+    margin-top: 10px;
+  }
 }

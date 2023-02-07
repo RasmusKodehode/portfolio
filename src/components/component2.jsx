@@ -4,7 +4,7 @@ export function Component2() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div className="placeholder-projects">
       <h1>You have currently counted to {count}</h1>
       <button onClick={() => setCount((oldCount) => oldCount + 1)}>
         Add One
