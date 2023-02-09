@@ -1,7 +1,7 @@
 {
   "name": "homepage-react",
   "version": "0.1.0",
-  "homepage": "https://RasmusKodehode.github.io/first-react-test",
+  "homepage": "https://RasmusKodehode.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

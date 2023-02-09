@@ -5,13 +5,12 @@
 }
 
 .App-header {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: baseline;
+  position: fixed;
+  top: 0;
+  width: 100%;
   padding: 10px;
   background-color: #FEC942;
+  border-bottom: 1px solid black;
   font-size: 20px;
 }
 
@@ -22,6 +21,7 @@ nav {
 }
 
 main {
+  margin-top: 47px;
   min-height: 100vh;
 }
 
@@ -71,14 +71,11 @@ span {
 
 .img-collection {
   display: flex;
+  justify-content: center;
   margin-top: 20px;
 }
 
-#bergen-img {
-  height: 210px;
-}
-
-#rain-img {
+.image {
   height: 210px;
 }
 
@@ -102,6 +99,10 @@ span {
   background-color: #FEC942;
   margin: 10px auto;
   box-shadow: 0 5px 3px darkgray;
+}
+
+.page {
+  padding-top: 13px;
 }
 
 @media only screen and (max-width: 1000px) {
