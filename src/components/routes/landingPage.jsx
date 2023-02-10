@@ -12,11 +12,11 @@ export function LandingPage() {
             Ta en titt rundt for å lære mer om meg og det jeg har gjort!</p>
           <div className="img-collection">
             <figure>
-              <img className="image" src={bergen} />
+              <img className="image" src={bergen} alt="on a sunny day" />
               <figcaption><em>Noen ganger ser det sånn ut...</em></figcaption>
             </figure>
             <figure>
-              <img className="image" src={rain} />
+              <img className="image" src={rain} alt="on a rainy day" />
               <figcaption><em>...men som oftest ser det sånn ut.</em></figcaption>
             </figure>
           </div>

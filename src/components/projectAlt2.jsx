@@ -1,6 +1,6 @@
-export function ProjectAlt(props) {
+export function ProjectAlt2(props) {
   return (
-    <div className="project">
+    <div className="project-right">
       <h4 className="project-title">
         <a href={props.link}>{props.title}</a>
       </h4>

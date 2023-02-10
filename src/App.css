@@ -6,6 +6,7 @@
 
 .App-header {
   position: fixed;
+  z-index: 1;
   top: 0;
   width: 100%;
   padding: 10px;
@@ -93,12 +94,40 @@ span {
   align-items: center;
 }
 
+.project-showcase-left {
+  display: block;
+  width: 50%;
+  margin-top: 0;
+}
+
+.project-showcase-right {
+  display: block;
+  position: relative;
+  top: 100px;
+  width: 50%;
+}
+
 .project {
-  width: 25%;
+  width: 50%;
   height: 270px;
   background-color: #FEC942;
   margin: 10px auto;
+  padding-top: 1px;
   box-shadow: 0 5px 3px darkgray;
+}
+
+.project-right {
+  width: 50%;
+  height: 270px;
+  background-color: #FEC942;
+  margin: 10px auto;
+  padding-top: 1px;
+  box-shadow: 0 5px 3px darkgray;
+}
+
+#last-project {
+  position: relative;
+  top: -135px;
 }
 
 .page {
