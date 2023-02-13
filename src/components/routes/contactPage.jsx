@@ -11,11 +11,11 @@ export function ContactPage() {
             <div className="img-collection">
                 <figure>
                     <img src={javascript} alt="coding" className="image" />
-                    <figcaption>To ting jeg liker: Koding...</figcaption>
+                    <figcaption>Hvis jeg ikke ser på dette...</figcaption>
                 </figure>
                 <figure>
                     <img src={F1} alt="Formula 1" className="image" />
-                    <figcaption>...og Racing</figcaption>
+                    <figcaption>...ser jeg sannsynligvis på dette</figcaption>
                 </figure>
             </div>
         </div>

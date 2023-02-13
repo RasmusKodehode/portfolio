@@ -8,6 +8,9 @@ import { ContactPage } from "./components/routes/contactPage";
 import { AboutPage } from "./components/routes/aboutPage";
 import {ErrorPage} from "./components/routes/404";
 
+const linkStyle = {
+  textDecoration: "none"
+}
 
 function App() {
   return (
@@ -15,9 +18,9 @@ function App() {
       <div className="App">
         <header className="App-header">
           <nav>
-            <Link to="/">Hjem</Link>
-            <Link to="/aboutPage">Om</Link>
-            <Link to="/ContactPage">Kontakt</Link>
+            <Link to="/" style={linkStyle}>Hjem</Link>
+            <Link to="/aboutPage" style={linkStyle}>Om</Link>
+            <Link to="/ContactPage" style={linkStyle}>Kontakt</Link>
           </nav>
         </header>
         <main>

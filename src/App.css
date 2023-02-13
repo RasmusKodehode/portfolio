@@ -26,6 +26,10 @@ main {
   min-height: 100vh;
 }
 
+.links {
+  text-decoration: none;
+}
+
 button {
   margin: 4px;
   padding: 2px 5px;
@@ -112,7 +116,7 @@ span {
   height: 270px;
   background-color: #FEC942;
   margin: 10px auto;
-  padding-top: 1px;
+  padding: 10px;
   box-shadow: 0 5px 3px darkgray;
 }
 
@@ -121,7 +125,7 @@ span {
   height: 270px;
   background-color: #FEC942;
   margin: 10px auto;
-  padding-top: 1px;
+  padding: 10px;
   box-shadow: 0 5px 3px darkgray;
 }
 
@@ -131,7 +135,11 @@ span {
 }
 
 .page {
-  padding-top: 13px;
+  padding-top: 20px;
+}
+
+.placeholder {
+  padding-top: 40px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -180,6 +188,11 @@ span {
 
   #button-quote {
     width: 200px;
+    margin: 20px;
+  }
+
+  #quote {
+    padding: 10px;
   }
 
   span {
@@ -188,36 +201,40 @@ span {
   }
 
   .profile {
-    display: flex;
+    display: block;
     min-height: 100vh;
   }
 
   .ProfileInfo {
-    margin-left: 20px;
+    margin-left: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 90vh;
-    width: 60%;
+    position: relative;
+    top: 220px;
+    height: 75vh;
+    width: 100%;
   }
 
   .ProfileImg {
-    width: 40%;
-    height: 90vh;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: -500px;
     background-color: #FF3939;
-    border-bottom-left-radius: 80%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
   }
 
   #profile-image {
-    width: 120px;
-    margin-top: 50px;
+    width: 150px;
+    margin-top: 25px;
     border-radius: 50%;
   }
 
   .image {
-    width: 100px;
+    height: 100px;
     margin-top: 35px;
-    border-radius: 50%;
   }
 
   .logo {
@@ -235,7 +252,16 @@ span {
     width: 70%;
     height: 230px;
     background-color: #FEC942;
-    margin: 20px auto;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 0 5px 3px darkgray;
+  }
+
+  .project-right {
+    width: 70%;
+    height: 270px;
+    background-color: #FEC942;
+    margin: 10px auto;
     padding: 10px;
     box-shadow: 0 5px 3px darkgray;
   }
@@ -267,5 +293,62 @@ span {
   #rain-img {
     height: 140px;
     margin-top: 10px;
+  }
+
+  .project-showcase-left {
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .project-showcase-right {
+    display: block;
+    width: 100%;
+    margin-top: -100px;
+  }
+
+  #last-project-mobile {
+    position: relative;
+    top: -5px;
+  }
+
+  #penultimate-project-mobile {
+    position: relative;
+    top: 280px;
+  }
+
+  #above {
+    position: relative;
+    top: -240px;
+  }
+
+  #below {
+    position: relative;
+    top: 280px;
+  }
+
+  #two {
+    position: relative;
+    top: -480px;
+  }
+
+  #three {
+    position: relative;
+    top: 280px;
+  }
+
+  #four {
+    position: relative;
+    top: -240px;
+  }
+
+  #five {
+    position: relative;
+    top: 560px;
+  }
+
+  .placeholder {
+    padding-top: 40px;
+    width: 100%;
   }
 }
