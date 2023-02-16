@@ -9,7 +9,8 @@ import { AboutPage } from "./components/routes/aboutPage";
 import {ErrorPage} from "./components/routes/404";
 
 const linkStyle = {
-  textDecoration: "none"
+  textDecoration: "none",
+  color: "black",
 }
 
 function App() {
