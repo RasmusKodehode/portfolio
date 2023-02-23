@@ -7,6 +7,8 @@ import { LandingPage } from "./components/routes/landingPage";
 import { ContactPage } from "./components/routes/contactPage";
 import { AboutPage } from "./components/routes/aboutPage";
 import {ErrorPage} from "./components/routes/404";
+import linkedIn from "./components/images/linkedIn.svg";
+import GitHub from "./components/images/GitHub.svg";
 
 const linkStyle = {
   textDecoration: "none",
@@ -21,7 +23,6 @@ function App() {
           <nav>
             <Link to="/" style={linkStyle}>Hjem</Link>
             <Link to="/aboutPage" style={linkStyle}>Om</Link>
-            <Link to="/ContactPage" style={linkStyle}>Kontakt</Link>
           </nav>
         </header>
         <main>
@@ -30,11 +31,17 @@ function App() {
             <Route path="/AboutPage" element={<AboutPage />} />
               <Route path="/AboutPage/Project1" element={<Component1 />} />
               <Route path="/AboutPage/Project2" element={<Component2 />} />
-              <Route path="/AboutPage/Project3" element={<Component3 />} />              
-            <Route path="/ContactPage" element={<ContactPage />} />
+              <Route path="/AboutPage/Project3" element={<Component3 />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </main>
+        <footer>
+          <div className="footer-links">
+            <a href="https://www.linkedin.com/in/rasmus-brekke-102838215/" target="_blank" className="footer-icon"><figure><img src={linkedIn} alt="linkedIn" /><figcaption>LinkedIn</figcaption></figure></a>
+            <a href="https://github.com/RasmusKodehode" target="_blank" className="footer-icon"><figure><img src={GitHub} alt="GitHub" /><figcaption>GitHub</figcaption></figure></a>
+          </div>
+          <p>Copyright Rasmus J. Brekke, 2023</p>
+        </footer>
       </div>
     </Router>
   );
