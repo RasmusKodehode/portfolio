@@ -4,7 +4,11 @@ import { Component1 } from "./components/component1";
 import { Component2 } from "./components/component2";
 import { Component3 } from "./components/component3";
 import { LandingPage } from "./components/routes/landingPage";
-import { ContactPage } from "./components/routes/contactPage";
+import { ProjectPage1 } from "./components/routes/projectPage1";
+import { ProjectPage2 } from "./components/routes/projectPage2";
+import { ProjectPage3 } from "./components/routes/projectPage3";
+import { ProjectPage4 } from "./components/routes/projectPage4";
+import { ProjectPage5 } from "./components/routes/projectPage5";
 import { AboutPage } from "./components/routes/aboutPage";
 import {ErrorPage} from "./components/routes/404";
 import linkedIn from "./components/images/linkedIn.svg";
@@ -29,9 +33,9 @@ function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/AboutPage" element={<AboutPage />} />
-              <Route path="/AboutPage/Project1" element={<Component1 />} />
-              <Route path="/AboutPage/Project2" element={<Component2 />} />
-              <Route path="/AboutPage/Project3" element={<Component3 />} />
+            <Route path="/Project1" element={<ProjectPage1 />} />
+            <Route path="/Project2" element={<Component2 />} />
+            <Route path="/Project3" element={<Component3 />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </main>

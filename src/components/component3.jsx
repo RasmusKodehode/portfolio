@@ -19,8 +19,8 @@ export function Component3() {
         }, [])
 
     return (
-        <div className="placeholder">
-            <h1>Get a quote of the dumbest things Donald Trump ever said!</h1>
+        <div className="API-page">
+            <h1 className="title-about">Get a quote of the dumbest things Donald Trump ever said!</h1>
             <button id="button-quote" onClick={() => getAPI(setData)}>Click for random quote</button>
             <p id="quote">{data ? data.value : ""}</p>
         </div>

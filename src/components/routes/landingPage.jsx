@@ -48,11 +48,11 @@ export function LandingPage() {
             Her finner du noen av prosjektene mine:
           </p>
           <div className="project-showcase">
-            <ProjectAlt
+            <Project
               title="Masteroppgave"
               date="2021"
               dooblydoo={project1Dooblydoo}
-              link="https://github.com/RasmusKodehode/Master-thesis-code"
+              link="/Project1"
               id="one"
             />
             <ProjectAlt2
