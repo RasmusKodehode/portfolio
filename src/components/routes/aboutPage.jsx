@@ -16,7 +16,7 @@ export function AboutPage() {
           Her finner du de viktigste delene av utdanningen min:
         </p>
         <div className="project-showcase">
-          <div className="education">
+          <div className="education" id="seven">
             <h4 className="project-title">Kodehode</h4>
             <p className="project-text">2022-</p>
             <p className="project-text">
@@ -25,7 +25,7 @@ export function AboutPage() {
               og litt backend server og databaser.
             </p>
           </div>
-          <div className="education">
+          <div className="education" id="eight">
             <h4 className="project-title">Mastergrad i eksperimentell partikkelfysikk</h4>
             <p className="project-text">2019-2021</p>
             <p className="project-text">
@@ -33,7 +33,7 @@ export function AboutPage() {
               databehandling med Linux og programmering i C++
             </p>
           </div>
-          <div className="education">
+          <div className="education" id="nine">
             <h4 className="project-title">Bachelorgrad i fysikk</h4>
             <p className="project-text">2016-2019</p>
             <p className="project-text">
@@ -44,7 +44,7 @@ export function AboutPage() {
           </div>
         </div>
         <div className="project-showcase">
-          <div className="education">
+          <div className="education" id="ten">
             <h4 className="project-title">Videregående skole</h4>
             <p className="project-text">2013-2016</p>
             <p className="project-text">
@@ -60,7 +60,7 @@ export function AboutPage() {
           Her er noen andre erfaringer jeg har hatt:
         </p>
         <div className="project-showcase">
-          <div className="education">
+          <div className="education" id="eleven">
             <h4 className="project-title">Butikkmedarbeider</h4>
             <p className="project-text">2017-</p>
             <p className="project-text">
@@ -68,12 +68,12 @@ export function AboutPage() {
               generell drift og stenging
             </p>
           </div>
-          <div className="education">
+          <div className="education" id="twelve">
             <h4 className="project-title">Taekwon-do</h4>
             <p className="project-text">2007-2021</p>
             <p className="project-text">Trente i Fana Taekwon-do klubb, fikk svart belte i 2019</p>
           </div>
-          <div className="education">
+          <div className="education" id="thirteen">
             <h4 className="project-title">Barneinstruktør</h4>
             <p className="project-text">2018-2020</p>
             <p className="project-text">

@@ -29,13 +29,13 @@ export function LandingPage() {
           </div>
         </div>
         <div className="img-collection">
-          <figure className="image-figure">
+          <figure className="image-figure1">
             <img className="image" src={bergen} alt="on a sunny day" />
             <figcaption>
               <em>Noen ganger ser det sånn ut...</em>
             </figcaption>
           </figure>
-          <figure className="image-figure">
+          <figure className="image-figure2">
             <img className="image" src={rain} alt="on a rainy day" />
             <figcaption>
               <em>...men som oftest ser det sånn ut.</em>
