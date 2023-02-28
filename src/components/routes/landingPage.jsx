@@ -45,7 +45,7 @@ export function LandingPage() {
         <div className="project-section">
           <h2 className="title-about">Prosjekter</h2>
           <p className="indented-text">
-            Her finner du noen av prosjektene mine:
+            Her finner du noen av prosjektene mine (Klikk for å se mer):
           </p>
           <div className="project-showcase">
             <Project
@@ -55,34 +55,34 @@ export function LandingPage() {
               link="/Project1"
               id="one"
             />
-            <ProjectAlt2
+            <Project
               title="Solsystemet"
               date="2022"
               dooblydoo={project2Dooblydoo}
-              link="https://github.com/MadsKodehode/GruppeProjektSolar"
+              link="/Project2"
               id="two"
             />
-            <ProjectAlt
+            <Project
               title="Juleprosjekt"
               date="2023"
               dooblydoo={project3Dooblydoo}
-              link="https://rasmuskodehode.github.io/christmas-project-2022/"
+              link="/Project3"
               id="three"
             />
           </div>
           <div className="project-showcase">
-            <Project2
+            <Project
               title="API project"
               date="2022"
               dooblydoo={project4Dooblydoo}
-              link="/AboutPage/Project3"
+              link="/Project4"
               id="four"
             />
-            <ProjectAlt
+            <Project
               title="Backend server"
               date="2023"
               dooblydoo={project5Dooblydoo}
-              link="https://github.com/RasmusKodehode/to-do-list-server"
+              link="/Project5"
               id="five"
             />
           </div>

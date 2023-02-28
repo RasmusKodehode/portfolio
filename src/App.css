@@ -188,6 +188,14 @@ main {
   margin-right: 88px;
 }
 
+.project-title {
+  margin-bottom: 15px;
+}
+
+.project-text {
+  margin-bottom: 15px;
+}
+
 .links {
   text-decoration: none;
   color: black;
