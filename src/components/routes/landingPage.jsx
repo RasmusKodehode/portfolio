@@ -54,6 +54,7 @@ export function LandingPage() {
               dooblydoo={project1Dooblydoo}
               link="/Project1"
               id="one"
+              textId="one-one"
             />
             <Project
               title="Solsystemet"
@@ -61,6 +62,7 @@ export function LandingPage() {
               dooblydoo={project2Dooblydoo}
               link="/Project2"
               id="two"
+              textId="one-two"
             />
             <Project
               title="Juleprosjekt"
@@ -68,6 +70,7 @@ export function LandingPage() {
               dooblydoo={project3Dooblydoo}
               link="/Project3"
               id="three"
+              textId="one-three"
             />
           </div>
           <div className="project-showcase">
@@ -77,6 +80,7 @@ export function LandingPage() {
               dooblydoo={project4Dooblydoo}
               link="/Project4"
               id="four"
+              textId="one-four"
             />
             <Project
               title="Backend server"
@@ -84,6 +88,7 @@ export function LandingPage() {
               dooblydoo={project5Dooblydoo}
               link="/Project5"
               id="five"
+              textId="one-five"
             />
           </div>
         </div>

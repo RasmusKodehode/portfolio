@@ -190,10 +190,18 @@ main {
   background-position: center;
 }
 
+#one:hover #one-one {
+  display: none;
+}
+
 #two:hover {
   background-image: url(./components/images/SOLAR.png);
   background-size: cover;
   background-position: center;
+}
+
+#two:hover #one-two {
+  display: none;
 }
 
 #three {
@@ -206,6 +214,10 @@ main {
   background-position: center;
 }
 
+#three:hover #one-three {
+  display: none;
+}
+
 #four {
   margin-left: 270px;
 }
@@ -216,6 +228,10 @@ main {
   background-position: center;
 }
 
+#four:hover #one-four {
+  display: none;
+}
+
 #five {
   margin-right: 270px;
 }
@@ -224,6 +240,10 @@ main {
   background-image: url(./components/images/Server.png);
   background-size: cover;
   background-position: center;
+}
+
+#five:hover #one-five {
+  display: none;
 }
 
 .project-title {
