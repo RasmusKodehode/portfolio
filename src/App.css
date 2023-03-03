@@ -45,18 +45,18 @@ footer {
 }
 
 main {
-  padding-top: 47px;
+  padding-top: 100px;
   min-height: 100vh;
 }
 
 .profile {
   display: flex;
   min-height: 50vh;
-  padding-top: 70px;
+  padding: 20px;
 }
 
 .ProfileInfo {
-  margin-left: 105px;
+  margin-left: 85px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -80,6 +80,7 @@ main {
 #landing-pitch {
   width: 550px;
   font-size: 20px;
+  margin-left: 2px;
 }
 
 .ProfileImg {
@@ -103,16 +104,18 @@ main {
   margin-top: 30px;
   margin-left: 0px;
   margin-bottom: 40px;
+  padding: 20px;
 }
 
 .image {
   height: 350px;
+  border-radius: 10px;
 }
 
 .image-figure1 {
   margin-top: 28px;
   margin-bottom: 28px;
-  margin-left: 108px;
+  margin-left: 88px;
   margin-right: auto;
 }
 
@@ -120,17 +123,18 @@ main {
   margin-top: 28px;
   margin-bottom: 28px;
   margin-left: auto;
-  margin-right: 108px;
+  margin-right: 88px;
 }
 
 .about-image {
   height: 340px;
+  border-radius: 10px;
 }
 
 .about-image-figure1 {
   margin-top: 25px;
   margin-bottom: 25px;
-  margin-left: 108px;
+  margin-left: 88px;
   margin-right: auto;
 }
 
@@ -138,7 +142,7 @@ main {
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: auto;
-  margin-right: 108px;
+  margin-right: 88px;
 }
 
 .text-about {
@@ -319,11 +323,43 @@ main {
     text-align: left;
     background-color: #f4f1de;
     color: black;
+  }
+
+  main {
+    padding-top: 100px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 1920px;
     margin: 0 auto;
+  }
+
+  .main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .profile {
+    display: flex;
+    min-height: 50vh;
+    padding: 20px;
+    width: 1920px;
+  }
+
+  .ProfileInfo {
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+  }
+
+  #landing-pitch {
+    width: 550px;
+    font-size: 20px;
+    margin-left: 4px;
   }
 
   #profile-image {
@@ -335,10 +371,11 @@ main {
   }
 
   .App-header {
+    display: flex;
+    justify-content: center;
     position: fixed;
     z-index: 1;
     top: 0;
-    width: 1920px;
     padding: 25px;
     background-color: #f2cc8f;
     font-size: 35px;
@@ -348,7 +385,8 @@ main {
   nav {
     display: flex;
     justify-content: space-around;
-    margin-left: 40px;
+    position: relative;
+    left: -760px;
     width: 350px;
   }
 
@@ -369,7 +407,7 @@ main {
   .img-collection {
     display: flex;
     justify-content: left;
-    width: 100%;
+    width: 1920px;
     margin-top: 30px;
     margin-left: 0px;
     margin-bottom: 40px;
@@ -382,7 +420,7 @@ main {
   .image-figure1 {
     margin-top: 28px;
     margin-bottom: 28px;
-    margin-left: 110px;
+    margin-left: 88px;
     margin-right: auto;
   }
 
@@ -390,7 +428,7 @@ main {
     margin-top: 28px;
     margin-bottom: 28px;
     margin-left: auto;
-    margin-right: 100px;
+    margin-right: 88px;
   }
 
   .about-image-figure1 {
@@ -419,6 +457,13 @@ main {
     margin-bottom: 15px;
     margin-right: 88px;
     font-size: 30px;
+  }
+
+  .project-section {
+    background-color: #3d405b;
+    color: white;
+    padding: 20px;
+    width: 1920px;
   }
 
   .project {
@@ -452,10 +497,12 @@ main {
     padding-right: 20px;
     padding-bottom: 20px;
     padding-top: 60px;
+    width: 1920px;
   }
 
   .education-section {
     padding: 20px;
+    width: 1920px;
   }
 
   .education {
@@ -470,6 +517,7 @@ main {
 
   .experience-section {
     padding: 20px;
+    width: 1920px;
   }
 
   .about-image {
@@ -502,6 +550,14 @@ main {
 
   #quote {
     font-size: 25px;
+  }
+
+  .project-page {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -160px;
+    width: 1920px;
   }
 }
 
@@ -568,7 +624,7 @@ main {
   .image-figure1 {
     margin-top: 28px;
     margin-bottom: 28px;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-right: auto;
   }
 
@@ -651,13 +707,13 @@ main {
   .about-image-figure1 {
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 100px;
+    margin-left: 90px;
   }
 
   .about-image-figure2 {
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-right: 100px;
+    margin-right: 90px;
   }
 
   .API-page {
@@ -676,6 +732,12 @@ main {
 
   #quote {
     font-size: 25px;
+  }
+
+  .project-page {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -727,14 +789,14 @@ main {
   }
 
   main {
-    margin-top: 47px;
+    margin-top: 0px;
     min-height: 100vh;
   }
 
   .profile {
     display: block;
     min-height: 50vh;
-    padding-top: 70px;
+    padding-top: 0px;
   }
 
   .ProfileInfo {
@@ -810,9 +872,9 @@ main {
   }
 
   .indented-text {
-    margin-left: 0px;
+    margin-left: 20px;
     margin-bottom: 15px;
-    margin-right: 0px;
+    margin-right: 20px;
   }
 
   .project-showcase {
@@ -866,7 +928,10 @@ main {
   }
 
   .about-section {
-    padding: 25px;
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
   }
 
   .education-section {

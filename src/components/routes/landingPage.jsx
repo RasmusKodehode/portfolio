@@ -11,7 +11,7 @@ import {project1Dooblydoo, project2Dooblydoo, project3Dooblydoo, project4Dooblyd
 
 export function LandingPage() {
     return (
-      <>
+      <div className="main-page">
         <div className="profile">
           <div className="ProfileInfo">
             <div className="name-title">
@@ -93,6 +93,6 @@ export function LandingPage() {
           </div>
         </div>
         <Outlet />
-      </>
+      </div>
     );
 }

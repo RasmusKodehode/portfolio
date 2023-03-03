@@ -4,7 +4,7 @@ import F1 from "../images/F1.jpg";
 
 export function AboutPage() {
   return (
-    <>
+    <div className="main-page">
       <div className="about-section">
         <h2 className="title-about">Alt du trenger å vite om meg:</h2>
         <p className="indented-text">{aboutMeText}</p>
@@ -93,6 +93,6 @@ export function AboutPage() {
           <figcaption><em>...ser jeg sannsynligvis på dette</em></figcaption>
         </figure>
       </div>
-    </>
+    </div>
   );
 }
