@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e7439da6.css",
-    "main.js": "/portfolio/static/js/main.66525392.js",
+    "main.css": "/portfolio/static/css/main.9669c63f.css",
+    "main.js": "/portfolio/static/js/main.41929f71.js",
     "static/js/787.ed490093.chunk.js": "/portfolio/static/js/787.ed490093.chunk.js",
     "static/media/bergen.jpg": "/portfolio/static/media/bergen.573e9d9e7e22efae86b5.jpg",
     "static/media/rain.jpg": "/portfolio/static/media/rain.2b5938f24cc8ace34192.jpg",
@@ -11,17 +11,18 @@
     "static/media/CERN.png": "/portfolio/static/media/CERN.b5e9b5362f091380e301.png",
     "static/media/Profilbilde.jpg": "/portfolio/static/media/Profilbilde.47c025fd044dce9cdef8.jpg",
     "static/media/christmas.png": "/portfolio/static/media/christmas.d366e0bc319735b02a45.png",
+    "static/media/tronaldDump.png": "/portfolio/static/media/tronaldDump.4d9a28177311c204ca02.png",
     "static/media/Trump.png": "/portfolio/static/media/Trump.b49f0466ca4b43829f0b.png",
     "static/media/Server.png": "/portfolio/static/media/Server.79d0c271cac4d986862b.png",
     "static/media/GitHub.svg": "/portfolio/static/media/GitHub.f9d240516447d409b9cabad64848bfc3.svg",
     "static/media/linkedIn.svg": "/portfolio/static/media/linkedIn.dfc483002d1aa6848941bc51d5459325.svg",
     "index.html": "/portfolio/index.html",
-    "main.e7439da6.css.map": "/portfolio/static/css/main.e7439da6.css.map",
-    "main.66525392.js.map": "/portfolio/static/js/main.66525392.js.map",
+    "main.9669c63f.css.map": "/portfolio/static/css/main.9669c63f.css.map",
+    "main.41929f71.js.map": "/portfolio/static/js/main.41929f71.js.map",
     "787.ed490093.chunk.js.map": "/portfolio/static/js/787.ed490093.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7439da6.css",
-    "static/js/main.66525392.js"
+    "static/css/main.9669c63f.css",
+    "static/js/main.41929f71.js"
   ]
 }
