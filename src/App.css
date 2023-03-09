@@ -308,6 +308,88 @@ main {
   border-radius: 20px;
 }
 
+#save-quote {
+  padding: 10px 20px;
+  margin: 30px;
+  background-color: lime;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.tweet {
+  float: left;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  width: 300px;
+  height: 220px;
+  margin: 10px 10px;
+  background-color: white;
+  border: solid #26a7de 3px;
+  border-radius: 20px;
+}
+
+#twitter-header {
+  display: flex;
+}
+
+#twitter-tags {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+#twitter-name {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#twitter-handle {
+  font-size: 10px;
+}
+
+.tweets-list {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.tweets-list:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#delete-button {
+  position: relative;
+  top: 0px;
+  left: 140px;
+  height: fit-content;
+  background-color: white;
+  border: none;
+}
+
+#delete-cross {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+
+#delete-button:hover {
+  background-color: #26a7de;
+}
+
+#tronalddump {
+  width: 35px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#timestamp {
+  font-size: 10px;
+}
+
 .project-page {
   padding: 20px;
 }
@@ -548,8 +630,22 @@ main {
     font-size: 20px;
   }
 
+  #save-quote {
+    padding: 20px 40px;
+    margin: 50px;
+    background-color: lime;
+    border: 5px solid black;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+
   #quote {
     font-size: 25px;
+  }
+
+  .tweets-list {
+    margin-left: 140px;
+    margin-right: 140px;
   }
 
   .project-page {
@@ -730,8 +826,22 @@ main {
     font-size: 20px;
   }
 
+  #save-quote {
+    padding: 20px 40px;
+    margin: 50px;
+    background-color: lime;
+    border: 5px solid black;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+
   #quote {
     font-size: 25px;
+  }
+
+  .tweets-list {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .project-page {
@@ -960,5 +1070,10 @@ main {
 
   .experience-section {
     padding: 20px;
+  }
+
+  .tweets-list {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
