@@ -78,7 +78,7 @@ export function Component3() {
             <br />
             <p>{tweet.quote}</p>
             <br />
-            <p id="timestamp">{tweet.timestamp}</p>
+            <p id="timestamp">Saved on {tweet.timestamp}</p>
         </div>
     ));
 
