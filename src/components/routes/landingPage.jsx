@@ -1,7 +1,6 @@
 import Profilbilde from "../images/Profilbilde.jpg";
 import bergen from "../images/bergen.jpg";
 import rain from "../images/rain.jpg";
-import {Outlet} from "react-router-dom";
 
 import {Project} from "../project";
 import {Project2} from "../project2";
@@ -92,7 +91,6 @@ export function LandingPage() {
             />
           </div>
         </div>
-        <Outlet />
       </div>
     );
 }

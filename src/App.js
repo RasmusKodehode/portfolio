@@ -1,5 +1,5 @@
 import "./App.css";
-import {HashRouter as Router, Routes, Route, Link} from "react-router-dom";
+import {HashRouter as Router, Routes, Route, NavLink} from "react-router-dom";
 import { Component1 } from "./components/component1";
 import { Component2 } from "./components/component2";
 import { Component3 } from "./components/component3";
@@ -16,10 +16,6 @@ import {ErrorPage} from "./components/routes/404";
 import linkedIn from "./components/images/linkedIn.svg";
 import GitHub from "./components/images/GitHub.svg";
 
-const linkStyle = {
-  textDecoration: "none",
-  color: "black",
-}
 
 function App() {
   return (
@@ -28,12 +24,12 @@ function App() {
       <div className="App">
         <header className="App-header">
           <nav>
-            <Link to="/" style={linkStyle}>
+            <NavLink to="/" className={({isActive}) => isActive ? "link-style-when-clicked" : "link-style"}>
               Hjem
-            </Link>
-            <Link to="/aboutPage" style={linkStyle}>
+            </NavLink>
+            <NavLink to="/aboutPage" className={({isActive}) => isActive ? "link-style-when-clicked" : "link-style"}>
               Om
-            </Link>
+            </NavLink>
           </nav>
         </header>
         <main>
@@ -73,7 +69,7 @@ function App() {
               </figure>
             </a>
           </div>
-          <p>Copyright Rasmus J. Brekke, 2023</p>
+          <p>&#169; Rasmus J. Brekke, 2023</p>
         </footer>
       </div>
     </Router>
