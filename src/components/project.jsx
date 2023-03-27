@@ -8,6 +8,7 @@ export function Project(props) {
           <h4 className="project-title">{props.title}</h4>
           <p className="project-text">{props.date}</p>
           <p className="project-text">{props.dooblydoo}</p>
+          <p className="project-text">Teknologier: {props.tech}</p>
         </div>
       </Link>
     </div>

@@ -9,7 +9,7 @@ export function ProjectPage2() {
           Teorien er at siden skal kunne brukes i en skolesammenheng, der den kan supplere undervisning om solsystemet for barn. Siden inneholder enkle fakta og morsomme illustrasjoner som er designet selv, samt en om-oss-side og en kontaktside hvor du kan sende inn en tilbakemelding.
           </p>
           <p className="indented-text">
-            Du kan se prosjektet <a href="https://github.com/MadsKodehode/GruppeProjektSolar" target="_blank">her</a>.
+            Du kan se prosjektet <a href="https://warm-dango-9a6da7.netlify.app/index.html" target="_blank">her</a>.
           </p>
         </div>
       </div>

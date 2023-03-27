@@ -51,6 +51,7 @@ export function LandingPage() {
               title="Masteroppgave"
               date="2021"
               dooblydoo={project1Dooblydoo}
+              tech="C++, Git Bash"
               link="/Project1"
               id="one"
               textId="one-one"
@@ -59,6 +60,7 @@ export function LandingPage() {
               title="Solsystemet"
               date="2022"
               dooblydoo={project2Dooblydoo}
+              tech="HTML, CSS"
               link="/Project2"
               id="two"
               textId="one-two"
@@ -67,6 +69,7 @@ export function LandingPage() {
               title="Juleprosjekt"
               date="2023"
               dooblydoo={project3Dooblydoo}
+              tech="React"
               link="/Project3"
               id="three"
               textId="one-three"
@@ -77,6 +80,7 @@ export function LandingPage() {
               title="API project"
               date="2022"
               dooblydoo={project4Dooblydoo}
+              tech="React"
               link="/Project4"
               id="four"
               textId="one-four"
@@ -85,6 +89,7 @@ export function LandingPage() {
               title="Backend server"
               date="2023"
               dooblydoo={project5Dooblydoo}
+              tech="Node JS"
               link="/Project5"
               id="five"
               textId="one-five"
