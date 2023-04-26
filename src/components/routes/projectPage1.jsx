@@ -24,7 +24,7 @@ export function ProjectPage1() {
           trengs for å kunne se noe resultat.
         </p>
         <p className="indented-text">
-          Du kan lese oppgaven i sin helhet <a href="https://bora.uib.no/bora-xmlui/handle/11250/2771475?show=full&locale-attribute=en" target="_blank">her</a>, og du kan se på koden som ble brukt <a href="https://github.com/RasmusKodehode/Master-thesis-code">her</a>.
+          Du kan lese oppgaven i sin helhet <a href="https://bora.uib.no/bora-xmlui/handle/11250/2771475?show=full&locale-attribute=en" target="_blank" rel="noreferrer">her</a>, og du kan se på koden som ble brukt <a href="https://github.com/RasmusKodehode/Master-thesis-code" target="_blank" rel="noreferrer">her</a>.
         </p>
       </div>
     </div>

@@ -24,10 +24,20 @@ function App() {
       <div className="App">
         <header className="App-header">
           <nav>
-            <NavLink to="/" className={({isActive}) => isActive ? "link-style-when-clicked" : "link-style"}>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "link-style-when-clicked" : "link-style"
+              }
+            >
               Hjem
             </NavLink>
-            <NavLink to="/aboutPage" className={({isActive}) => isActive ? "link-style-when-clicked" : "link-style"}>
+            <NavLink
+              to="/aboutPage"
+              className={({ isActive }) =>
+                isActive ? "link-style-when-clicked" : "link-style"
+              }
+            >
               Om
             </NavLink>
           </nav>
@@ -51,6 +61,7 @@ function App() {
             <a
               href="https://www.linkedin.com/in/rasmus-brekke-102838215/"
               target="_blank"
+              rel="noreferrer"
               className="footer-icon"
             >
               <figure>
@@ -61,6 +72,7 @@ function App() {
             <a
               href="https://github.com/RasmusKodehode"
               target="_blank"
+              rel="noreferrer"
               className="footer-icon"
             >
               <figure>

@@ -9,7 +9,7 @@ export function ProjectPage5() {
           En CRUD server med en oppgaveliste. Serveren laster en nettside hvor du kan skrive inn oppgaver som blir lagret i oppgavelisten. Når du skriver inn en oppgave vil den sende en request til serveren, og du vil få en tilbakemelding på at oppgaven har blitt opprettet, fullført eller slettet. Hvis du skulle være uheldig og gå deg vill vil en 404-side bli lastet. Oppgavene blir lagret som objekter i et array i JSON format. Du kan også gjøre de samme tingene fra terminalen.
         </p>
         <p className="indented-text">
-          Du kan se prosjektet <a href="https://github.com/RasmusKodehode/to-do-list-server">her</a>.
+          Du kan se prosjektet <a href="https://github.com/RasmusKodehode/to-do-list-server" target="_blank" rel="noreferrer">her</a>.
         </p>
       </div>
     </div>
