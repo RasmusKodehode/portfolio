@@ -31,7 +31,7 @@ export function LandingPage() {
           <figure className="image-figure1">
             <img className="image" src={bergen} alt="on a sunny day" />
             <figcaption>
-              <em>Noen ganger ser det sånn ut...</em>
+              <em>Noen ganger ser hjembyen min sånn ut...</em>
             </figcaption>
           </figure>
           <figure className="image-figure2">

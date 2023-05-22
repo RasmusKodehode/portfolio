@@ -53,6 +53,15 @@ function App() {
             <Route path="/Project4/project4" element={<Component3 />} />
             <Route path="/Project5" element={<ProjectPage5 />} />
             <Route path="/Project6" element={<ProjectPage6 />} />
+            <Route path="/en" element={<LandingPage />} />
+            <Route path="/AboutPage/en" element={<AboutPage />} />
+            <Route path="/Project1/en" element={<ProjectPage1 />} />
+            <Route path="/Project2/en" element={<ProjectPage2 />} />
+            <Route path="/Project3/en" element={<ProjectPage3 />} />
+            <Route path="/Project4/en" element={<ProjectPage4 />} />
+            <Route path="/Project4/project4/en" element={<Component3 />} />
+            <Route path="/Project5/en" element={<ProjectPage5 />} />
+            <Route path="/Project6/en" element={<ProjectPage6 />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </main>

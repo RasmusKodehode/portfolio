@@ -15,7 +15,7 @@
   z-index: 1;
   top: 0;
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   background-color: #f2cc8f;
   font-size: 20px;
   font-weight: bold;
@@ -23,9 +23,9 @@
 
 nav {
   display: flex;
-  justify-content: space-around;
-  margin-left: 68px;
-  width: 200px;
+  justify-content: space-between;
+  margin-left: 92px;
+  width: 150px;
 }
 
 .link-style {
@@ -191,8 +191,8 @@ main {
   height: 270px;
   background-color: #f4f1de;
   margin: 10px auto;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
 
 #one {
@@ -288,8 +288,8 @@ main {
   background-color: #3d405b;
   color: white;
   margin: 10px auto;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
 
 #seven,
