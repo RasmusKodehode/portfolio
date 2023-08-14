@@ -17,6 +17,14 @@ export function AboutPage() {
         </p>
         <div className="project-showcase">
           <div className="education" id="seven">
+            <h4 className="project-title">Kodeverket AS</h4>
+            <p className="project-text">2023-</p>
+            <p className="project-text">
+              Praksisplass som frontend utvikler, jobber med å designe og utvikle nettsider for forskjellige kunder,
+              hovedsakelig med NextJS frontend og Sanity CMS.
+            </p>
+          </div>
+          <div className="education" id="eight">
             <h4 className="project-title">Kodehode</h4>
             <p className="project-text">2022-</p>
             <p className="project-text">
@@ -25,15 +33,19 @@ export function AboutPage() {
               og litt backend server og databaser.
             </p>
           </div>
-          <div className="education" id="eight">
-            <h4 className="project-title">Mastergrad i eksperimentell partikkelfysikk</h4>
+          <div className="education" id="nine">
+            <h4 className="project-title">
+              Mastergrad i eksperimentell partikkelfysikk
+            </h4>
             <p className="project-text">2019-2021</p>
             <p className="project-text">
               Inneholdt flere fag om subatomær fysikk, i tillegg til
               databehandling med Linux og programmering i C++
             </p>
           </div>
-          <div className="education" id="nine">
+        </div>
+        <div className="project-showcase">
+          <div className="education" id="ten">
             <h4 className="project-title">Bachelorgrad i fysikk</h4>
             <p className="project-text">2016-2019</p>
             <p className="project-text">
@@ -42,9 +54,7 @@ export function AboutPage() {
               også programmering i Python
             </p>
           </div>
-        </div>
-        <div className="project-showcase">
-          <div className="education" id="ten">
+          <div className="education" id="fourteen">
             <h4 className="project-title">Videregående skole</h4>
             <p className="project-text">2013-2016</p>
             <p className="project-text">
@@ -71,7 +81,9 @@ export function AboutPage() {
           <div className="education" id="twelve">
             <h4 className="project-title">Taekwon-do</h4>
             <p className="project-text">2007-2021</p>
-            <p className="project-text">Trente i Fana Taekwon-do klubb, fikk svart belte i 2019</p>
+            <p className="project-text">
+              Trente i Fana Taekwon-do klubb, fikk svart belte i 2019
+            </p>
           </div>
           <div className="education" id="thirteen">
             <h4 className="project-title">Barneinstruktør</h4>
@@ -86,11 +98,15 @@ export function AboutPage() {
       <div className="img-collection">
         <figure className="about-image-figure1">
           <img src={javascript} alt="coding" className="about-image" />
-          <figcaption><em>Hvis jeg ikke ser på dette...</em></figcaption>
+          <figcaption>
+            <em>Hvis jeg ikke ser på dette...</em>
+          </figcaption>
         </figure>
         <figure className="about-image-figure2">
           <img src={F1} alt="Formula 1" className="about-image" />
-          <figcaption><em>...ser jeg sannsynligvis på dette</em></figcaption>
+          <figcaption>
+            <em>...ser jeg sannsynligvis på dette</em>
+          </figcaption>
         </figure>
       </div>
     </div>

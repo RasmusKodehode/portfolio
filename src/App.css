@@ -302,6 +302,14 @@ main {
   margin-right: 88px;
 }
 
+#ten {
+  margin-left: 270px;
+}
+
+#fourteen {
+  margin-right: 270px;
+}
+
 .experience-section {
   padding: 20px;
 }
@@ -608,6 +616,14 @@ main {
     border-radius: 15px;
   }
 
+  #ten {
+    margin-left: 390px;
+  }
+
+  #fourteen {
+    margin-right: 390px;
+  }
+
   .experience-section {
     padding: 20px;
     width: 1920px;
@@ -801,6 +817,14 @@ main {
     margin: 10px auto;
     padding: 15px;
     border-radius: 15px;
+  }
+
+  #ten {
+    margin-left: 305px;
+  }
+
+  #fourteen {
+    margin-right: 305px;
   }
 
   .experience-section {
@@ -1076,6 +1100,11 @@ main {
 
   #nine,
   #thirteen {
+    margin-right: 0px;
+  }
+
+  #ten, #fourteen {
+    margin-left: 0px;
     margin-right: 0px;
   }
 
